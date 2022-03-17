@@ -2,8 +2,8 @@ def main(a):
     """
     Given a five-digit integer a,  check the following statement "All digits of the number are in ascending order".
     Args:
-        a: int
+        a(int): parameter a
     Returns:
-        True if all digits of a are in ascending order, False otherwise
+        bool: answer
     """
     return

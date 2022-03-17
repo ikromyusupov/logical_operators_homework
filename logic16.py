@@ -2,8 +2,8 @@ def main(a):
     """
     Given integer a,  check the following statement "The integer is a five-digit number".
     Args:
-        a: int
+        a(int): parameter a
     Returns:
-        True if a is five-digit number, False otherwise
+        bool: answer
     """
     return

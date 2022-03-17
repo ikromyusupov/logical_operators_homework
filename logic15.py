@@ -2,8 +2,8 @@ def main(a):
     """
     Given a three-digit integer a,  check the following statement "All digits sum is odd".
     Args:
-        a: int
+        a(int): parameter a
     Returns:
-        True if all digits sum is odd, False otherwise
+        bool: answer
     """
     return

@@ -2,9 +2,9 @@ def main(a,b):
     """
     Given two integers a, b,  check the following statement "At least one of the numbers 'a' and 'b' is positive".
     Args:
-        a: int
-        b: int
+        a(int): parameter a
+        b(int): parameter b
     Returns:
-        True if at least one of the numbers 'a' and 'b' is positive, False otherwise
+        bool: answer
     """
     return
