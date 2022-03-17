@@ -367,7 +367,7 @@ Output: True
 ```
 
 **Constraints:**
-- -10<sup>18</sup><=num<=10<sup>18</sup>
+- -10<sup>18</sup><=a<=10<sup>18</sup>
 
 ## logic16
 
@@ -390,7 +390,7 @@ Output: False
 ```
 
 **Constraints:**
-- -10<sup>18</sup><=num<=10<sup>18</sup>
+- -10<sup>18</sup><=a<=10<sup>18</sup>
 
 ## logic17
 
@@ -413,7 +413,7 @@ Output: False
 ```
 
 **Constraints:**
-- -10<sup>18</sup><=num<=10<sup>18</sup>
+- -10<sup>18</sup><=a<=10<sup>18</sup>
 
 ## logic18
 
@@ -436,7 +436,64 @@ Output: True
 ```
 
 **Constraints:**
-- -10<sup>18</sup><=num<=10<sup>18</sup>
+- -10<sup>18</sup><=a<=10<sup>18</sup>
+
+## logic19
+
+  Given an integer x, return true if x is palindrome integer.
+  An integer is a palindrome when it reads the same backward as forward.
+
+**Example 1:**
+
+```Python
+Input: x=121
+Output: True
+
+```
+
+**Example 2:**
+
+```Python
+Input: x=10
+Output: False
+
+```
+
+**Example 3:**
+
+```Python
+Input: x=11
+Output: True
+
+```
+
+**Constraints:**
+- 9 < x < 1000
+
+## logic20
+
+  A number consisting of one and zero is given (the number starts at once). 
+  If the number of ones is greater than zero, true, otherwise False is returned.
+  n five-digit number.
+
+**Example 1:**
+
+```Python
+Input: n=1100
+Output: False
+
+```
+
+**Example 2:**
+
+```Python
+Input: n=10011
+Output: True
+
+```
+
+**Constraints:**
+- 0 < n < 100000
 
 # Warning
 - don't copy other solutions or any solution
