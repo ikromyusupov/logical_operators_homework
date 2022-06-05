@@ -8,16 +8,6 @@ def main(x):
     Returns:
         bool: answer
     """
-    x1 = a % 10
-    a //= 10
+    number  = str(x)
 
-    x2 = a % 10
-    a //= 10
-
-    x3 = a % 10
-    a //= 10
-
-    x4 = a % 10
-    a //= 10
-
-    return ((x1 == x3) and (x2 == x4)) or ((x3 == x1) and (x2 == x4))
+    return number == number[::-1]
