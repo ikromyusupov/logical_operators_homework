@@ -20,4 +20,4 @@ def main(x):
     x4 = a % 10
     a //= 10
 
-    return (x1 + x2) == (x3 + x4) and (x3 + x2) == (x1 + x4)
+    return (x1 + x2) == (x3 + x4) and (x3 + x1) == (x2 + x4)
